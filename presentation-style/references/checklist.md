@@ -31,15 +31,28 @@ Run through this before handing over a deck built with the presentation-style sk
 - [ ] Busy diagrams are assembled step by step, not dropped in fully formed.
 - [ ] Color separates logical groups / legs of a flow.
 
-## Analogy & text
-- [ ] One running analogy carries the whole deck (not a new metaphor each slide).
+## Text (slides and speaker notes)
+- [ ] No analogies or metaphors; technical concepts named by the source's own terms (e.g. cache, hit rate, TTL — not a metaphor for them).
+- [ ] No line that only extends an image or restates what the figure already shows.
+- [ ] Titles are the section name or a plain statement of the point — no hook or slogan titles.
+- [ ] No slogans, catchphrase closers, rhetorical-question headers, or anthropomorphized model behavior.
+- [ ] Neutral wording in the source's register — no dramatizing colloquialisms, no 優化/賦能-style officialese.
 - [ ] One idea per line; no long 透過…以…進而… clause chains.
-- [ ] Concrete examples/numbers/pictures instead of abstract concept-naming.
-- [ ] Everyday verbs, real subjects — not 優化/賦能-style officialese.
-- [ ] Plain wording leads; jargon follows as a label.
-- [ ] Few words per slide; detail lives in the spoken track.
+- [ ] No telegraphic fragments: each point is short complete sentences (what is done → what goes wrong → consequence).
+- [ ] Every big number states what it measures; every symbol/term (λ, TTL, p99, …) is introduced before use.
+- [ ] No coined translations of technical terms — the source's term or a plain description.
+- [ ] Problems and the fixes that answer them carry matching labels (缺點 1 → 解決缺點 1).
+- [ ] Concrete examples/numbers/real figures instead of abstract concept-naming.
+- [ ] Few words per slide; detail lives in the speaker notes.
+
+## Scope
+- [ ] Every slide and line is inside the scope the user asked for (e.g. problem + motivation + method → no results or headline numbers).
+- [ ] The summary recaps only what was presented.
+- [ ] Anything important but out of scope is mentioned in the reply, not added to the deck.
+- [ ] Deck length and speaker notes fit the time budget.
 
 ## AI-tell avoidance
+- [ ] No recurring callout strip/box (analogy, takeaway, tip) on every slide.
 - [ ] No decorative line under any title.
 - [ ] No edge color bars / stripes / sidebars.
 - [ ] No leftover watermark/placeholder/filler cruft.
